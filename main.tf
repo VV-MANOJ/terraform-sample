@@ -1,9 +1,4 @@
 
- 
-
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
 terraform {
   required_providers {
     aws = {
@@ -18,7 +13,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "manojrpms"
 
     workspaces {
       name = "learn-terraform-github-actions"
@@ -27,7 +22,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = "us-west-1"
 }
 
 resource "random_pet" "sg" {}
