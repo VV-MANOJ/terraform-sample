@@ -86,3 +86,7 @@ resource "aws_s3_bucket" "example" {
   bucket = "shoaibmanojtesting-bucket"
   acl    = "private"
 }
+resource "aws_s3_bucket" "example" {
+  bucket = "aksdjakjhsdaksjdhasdha-bucket"
+  acl    = "private"
+}
